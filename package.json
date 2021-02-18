@@ -1,16 +1,19 @@
 {
   "name": "port-killer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Find and kill port tool for windows",
+  "main": "lib/index.js",
+  "repository": "jjerryyz/port-killer",
   "type": "module",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jerry",
   "license": "ISC",
   "dependencies": {
-    "arg": "^5.0.0"
+    "arg": "^5.0.0",
+    "chalk": "^4.1.0",
+    "is-wsl": "^2.2.0"
   }
 }
