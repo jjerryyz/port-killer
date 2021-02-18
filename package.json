@@ -1,6 +1,6 @@
 {
-  "name": "kill-process-on-port-cli",
-  "version": "1.0.0",
+  "name": "kill-process-cli",
+  "version": "0.0.3",
   "description": "Find and kill port tool for windows",
   "main": "lib/index.js",
   "repository": "jjerryyz/port-killer",
@@ -8,6 +8,9 @@
   "scripts": {
     "dev": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kill-process-cli": "lib/index.js"
   },
   "author": "jerry",
   "license": "ISC",
