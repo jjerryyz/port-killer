@@ -1,5 +1,5 @@
 {
-  "name": "port-killer",
+  "name": "kill-process-on-port-cli",
   "version": "1.0.0",
   "description": "Find and kill port tool for windows",
   "main": "lib/index.js",
